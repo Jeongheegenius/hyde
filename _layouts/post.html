@@ -1,7 +1,10 @@
 ---
 layout: default
 ---
-
+<div class="hyde ad">
+  {% include ad-desktop.html %}
+  {% include ad-mobile.html %}
+</div>
 <div class="hyde content">
   {{ content }} {% assign author = site.data.authors | where: 'name', page.author | first %} {% if author %}
   <div class="hyde share">

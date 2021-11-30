@@ -117,3 +117,23 @@ hr {
     }
   }
 }
+
+.hyde.ad {
+  padding: 1rem 0; 
+  display: flex;
+  justify-content: center;
+
+  .ad-desktop {
+    @media (max-width: $small) {
+      display: none;
+    }
+  }
+
+  .ad-mobile {
+    display: none;
+
+    @media (max-width: $small) {
+      display: block;
+    }
+  }
+}
