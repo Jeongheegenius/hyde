@@ -9,7 +9,7 @@ google_analytics: UA-146771648-1
 
 exclude: [README.md, Gemfile, Gemfile.lock]
 
-comment:
+comments:
   enabled: true
   repo: ChemistryX/hyde-comments
   issue-term: pathname
